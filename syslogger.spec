@@ -14,7 +14,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Syslogger copies lines from the standard input, and logs them to syslog.
 
 %description -l pl
-Syslogger kopiuje linie ze standardowego wej¶cia, i zapisuje je do
+Syslogger kopiuje linie ze standardowego wej¶cia i zapisuje je do
 sysloga.
 
 %prep
