@@ -6,6 +6,7 @@ Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://www.nb.net/~lbudney/linux/software/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	87ce704b92e6e1996aaacbf3f6b3a579
 Patch0:		%{name}-home.patch
 URL:		http://www.pobox.com/~lbudney/linux/software/syslogger.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
