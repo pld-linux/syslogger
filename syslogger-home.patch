@@ -1,0 +1,9 @@
+diff -Naur syslogger-1.03/conf-home syslogger-1.03-p/conf-home
+--- syslogger-1.03/conf-home	Mon May 14 22:58:53 2001
++++ syslogger-1.03-p/conf-home	Sun Mar  2 15:41:15 2003
+@@ -1,4 +1,4 @@
+-/usr/local
++/usr
+ 
+ This is the dnscache home directory. Programs will be installed in
+ .../bin.
