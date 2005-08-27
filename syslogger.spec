@@ -1,5 +1,6 @@
-Summary:	copy lines from stdin to syslog
-Summary(pl):	kopiowanie linii ze standardowego wej¶cia do sysloga
+# TODO: optflags
+Summary:	Copy lines from stdin to syslog
+Summary(pl):	Kopiowanie linii ze standardowego wej¶cia do sysloga
 Name:		syslogger
 Version:	1.03
 Release:	1
@@ -12,7 +13,8 @@ URL:		http://www.pobox.com/~lbudney/linux/software/syslogger.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Syslogger copies lines from the standard input, and logs them to syslog.
+Syslogger copies lines from the standard input, and logs them to
+syslog.
 
 %description -l pl
 Syslogger kopiuje linie ze standardowego wej¶cia i zapisuje je do
@@ -28,7 +30,6 @@ sysloga.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
-
 
 install %{name} $RPM_BUILD_ROOT%{_bindir}
 install %{name}.8 $RPM_BUILD_ROOT%{_mandir}/man8
