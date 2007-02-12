@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Copy lines from stdin to syslog
-Summary(pl.UTF-8):   Kopiowanie linii ze standardowego wejścia do sysloga
+Summary(pl.UTF-8):	Kopiowanie linii ze standardowego wejścia do sysloga
 Name:		syslogger
 Version:	1.03
 Release:	1
