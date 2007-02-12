@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Copy lines from stdin to syslog
-Summary(pl):	Kopiowanie linii ze standardowego wej∂cia do sysloga
+Summary(pl.UTF-8):   Kopiowanie linii ze standardowego wej≈õcia do sysloga
 Name:		syslogger
 Version:	1.03
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Syslogger copies lines from the standard input, and logs them to
 syslog.
 
-%description -l pl
-Syslogger kopiuje linie ze standardowego wej∂cia i zapisuje je do
+%description -l pl.UTF-8
+Syslogger kopiuje linie ze standardowego wej≈õcia i zapisuje je do
 sysloga.
 
 %prep
